@@ -4,6 +4,10 @@ import joblib
 import numpy as np
 from sklearn.impute import SimpleImputer
 
+# Sentiment detection imports
+from depression_detection_tweets import DepressionDetection
+from TweetModel import TweetClassifier, process_message
+
 app = Flask(__name__)
 app.secret_key = os.urandom(12)
 
@@ -64,7 +68,6 @@ def predict():
 
         prediction = model.predict(features)
 
-        # Map prediction to result text
         result_map = {
             0: 'Your Depression test result : No Depression',
             1: 'Your Depression test result : Mild Depression',
@@ -74,12 +77,36 @@ def predict():
         }
 
         result = result_map.get(prediction[0], 'Could not determine result.')
-        print(result)
         return render_template("result.html", result=result)
-
 
     except Exception as e:
         return f"❌ Error in prediction: {str(e)}", 500
+
+
+# NEW: Sentiment analysis routes
+@app.route("/sentiment")
+def sentiment():
+    return render_template("sentiment.html")
+
+
+@app.route("/predictSentiment", methods=["POST"])
+def predictSentiment():
+    try:
+        message = request.form['form10']
+        pm = process_message(message)
+
+        detector = DepressionDetection()
+        bow_model = TweetClassifier(detector.trainData, 'bow')
+        tfidf_model = TweetClassifier(detector.trainData, 'tf-idf')
+
+        result_bow = bow_model.classify(pm, 'bow')
+        result_tfidf = tfidf_model.classify(pm, 'tf-idf')
+
+        result = result_bow or result_tfidf
+
+        return render_template("tweetresult.html", result=result)
+    except Exception as e:
+        return f"❌ Error in sentiment prediction: {str(e)}", 500
 
 
 if __name__ == '__main__':
