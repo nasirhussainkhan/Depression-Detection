@@ -1,0 +1,26 @@
+2025-04-16 01:11:09,583 INFO    MainThread:290140 [wandb_setup.py:_flush():67] Current SDK version is 0.19.9
+2025-04-16 01:11:09,583 INFO    MainThread:290140 [wandb_setup.py:_flush():67] Configure stats pid to 290140
+2025-04-16 01:11:09,583 INFO    MainThread:290140 [wandb_setup.py:_flush():67] Loading settings from /home/nasir-hussain/.config/wandb/settings
+2025-04-16 01:11:09,583 INFO    MainThread:290140 [wandb_setup.py:_flush():67] Loading settings from /home/nasir-hussain/Pictures/Depression_Detection_Using_Machine_Learning/wandb/settings
+2025-04-16 01:11:09,583 INFO    MainThread:290140 [wandb_setup.py:_flush():67] Loading settings from environment variables
+2025-04-16 01:11:09,584 INFO    MainThread:290140 [wandb_init.py:setup_run_log_directory():662] Logging user logs to /home/nasir-hussain/Pictures/Depression_Detection_Using_Machine_Learning/wandb/run-20250416_011109-sqmsqj2i/logs/debug.log
+2025-04-16 01:11:09,584 INFO    MainThread:290140 [wandb_init.py:setup_run_log_directory():663] Logging internal logs to /home/nasir-hussain/Pictures/Depression_Detection_Using_Machine_Learning/wandb/run-20250416_011109-sqmsqj2i/logs/debug-internal.log
+2025-04-16 01:11:09,584 INFO    MainThread:290140 [wandb_init.py:init():781] calling init triggers
+2025-04-16 01:11:09,584 INFO    MainThread:290140 [wandb_init.py:init():786] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-04-16 01:11:09,584 INFO    MainThread:290140 [wandb_init.py:init():809] starting backend
+2025-04-16 01:11:09,584 INFO    MainThread:290140 [wandb_init.py:init():813] sending inform_init request
+2025-04-16 01:11:09,590 INFO    MainThread:290140 [backend.py:_multiprocessing_setup():101] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2025-04-16 01:11:09,591 INFO    MainThread:290140 [wandb_init.py:init():823] backend started and connected
+2025-04-16 01:11:09,592 INFO    MainThread:290140 [wandb_init.py:init():915] updated telemetry
+2025-04-16 01:11:09,600 INFO    MainThread:290140 [wandb_init.py:init():939] communicating run to backend with 90.0 second timeout
+2025-04-16 01:11:10,645 INFO    MainThread:290140 [wandb_init.py:init():1014] starting run threads in backend
+2025-04-16 01:11:10,934 INFO    MainThread:290140 [wandb_run.py:_console_start():2454] atexit reg
+2025-04-16 01:11:10,935 INFO    MainThread:290140 [wandb_run.py:_redirect():2306] redirect: wrap_raw
+2025-04-16 01:11:10,936 INFO    MainThread:290140 [wandb_run.py:_redirect():2371] Wrapping output streams.
+2025-04-16 01:11:10,936 INFO    MainThread:290140 [wandb_run.py:_redirect():2394] Redirects installed.
+2025-04-16 01:11:10,939 INFO    MainThread:290140 [wandb_init.py:init():1056] run started, returning control to user process
+2025-04-16 01:11:24,113 INFO    MainThread:290140 [wandb_run.py:_finish():2189] finishing run adney377-amity-online/ml-classification-pipeline/sqmsqj2i
+2025-04-16 01:11:24,116 INFO    MainThread:290140 [wandb_run.py:_atexit_cleanup():2419] got exitcode: 0
+2025-04-16 01:11:24,117 INFO    MainThread:290140 [wandb_run.py:_restore():2401] restore
+2025-04-16 01:11:24,117 INFO    MainThread:290140 [wandb_run.py:_restore():2407] restore done

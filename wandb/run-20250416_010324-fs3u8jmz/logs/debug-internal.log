@@ -1,0 +1,12 @@
+{"time":"2025-04-16T01:03:24.446920285+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/home/nasir-hussain/Pictures/Depression_Detection_Using_Machine_Learning/wandb/run-20250416_010324-fs3u8jmz/logs/debug-core.log"}
+{"time":"2025-04-16T01:03:54.568099004+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": context deadline exceeded"}
+{"time":"2025-04-16T01:03:57.233648801+05:30","level":"INFO","msg":"created new stream","id":"fs3u8jmz"}
+{"time":"2025-04-16T01:03:57.233726938+05:30","level":"INFO","msg":"stream: started","id":"fs3u8jmz"}
+{"time":"2025-04-16T01:03:57.2337543+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"fs3u8jmz"}
+{"time":"2025-04-16T01:03:57.233791765+05:30","level":"INFO","msg":"sender: started","stream_id":"fs3u8jmz"}
+{"time":"2025-04-16T01:03:57.233831468+05:30","level":"INFO","msg":"handler: started","stream_id":"fs3u8jmz"}
+{"time":"2025-04-16T01:03:57.719640826+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-16T01:03:58.355301883+05:30","level":"INFO","msg":"stream: closing","id":"fs3u8jmz"}
+{"time":"2025-04-16T01:03:58.355433593+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-16T01:03:58.355523498+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-16T01:04:00.152850982+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}

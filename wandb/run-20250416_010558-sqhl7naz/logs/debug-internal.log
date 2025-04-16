@@ -1,0 +1,11 @@
+{"time":"2025-04-16T01:05:58.741744141+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/home/nasir-hussain/Pictures/Depression_Detection_Using_Machine_Learning/wandb/run-20250416_010558-sqhl7naz/logs/debug-core.log"}
+{"time":"2025-04-16T01:05:59.365090738+05:30","level":"INFO","msg":"created new stream","id":"sqhl7naz"}
+{"time":"2025-04-16T01:05:59.365139067+05:30","level":"INFO","msg":"stream: started","id":"sqhl7naz"}
+{"time":"2025-04-16T01:05:59.365170111+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"sqhl7naz"}
+{"time":"2025-04-16T01:05:59.365187071+05:30","level":"INFO","msg":"sender: started","stream_id":"sqhl7naz"}
+{"time":"2025-04-16T01:05:59.36522725+05:30","level":"INFO","msg":"handler: started","stream_id":"sqhl7naz"}
+{"time":"2025-04-16T01:05:59.825270147+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-16T01:06:14.080282896+05:30","level":"INFO","msg":"stream: closing","id":"sqhl7naz"}
+{"time":"2025-04-16T01:06:14.080730543+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-16T01:06:14.081156948+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-16T01:06:58.151590336+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}

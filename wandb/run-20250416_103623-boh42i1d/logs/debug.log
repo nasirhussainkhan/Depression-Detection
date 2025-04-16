@@ -1,0 +1,37 @@
+2025-04-16 10:36:23,210 INFO    MainThread:302186 [wandb_setup.py:_flush():67] Current SDK version is 0.19.9
+2025-04-16 10:36:23,210 INFO    MainThread:302186 [wandb_setup.py:_flush():67] Configure stats pid to 302186
+2025-04-16 10:36:23,211 INFO    MainThread:302186 [wandb_setup.py:_flush():67] Loading settings from /home/nasir-hussain/.config/wandb/settings
+2025-04-16 10:36:23,211 INFO    MainThread:302186 [wandb_setup.py:_flush():67] Loading settings from /home/nasir-hussain/Pictures/Depression_Detection_Using_Machine_Learning/wandb/settings
+2025-04-16 10:36:23,211 INFO    MainThread:302186 [wandb_setup.py:_flush():67] Loading settings from environment variables
+2025-04-16 10:36:23,211 INFO    MainThread:302186 [wandb_init.py:setup_run_log_directory():662] Logging user logs to /home/nasir-hussain/Pictures/Depression_Detection_Using_Machine_Learning/wandb/run-20250416_103623-boh42i1d/logs/debug.log
+2025-04-16 10:36:23,211 INFO    MainThread:302186 [wandb_init.py:setup_run_log_directory():663] Logging internal logs to /home/nasir-hussain/Pictures/Depression_Detection_Using_Machine_Learning/wandb/run-20250416_103623-boh42i1d/logs/debug-internal.log
+2025-04-16 10:36:23,212 INFO    MainThread:302186 [wandb_init.py:init():781] calling init triggers
+2025-04-16 10:36:23,212 INFO    MainThread:302186 [wandb_init.py:init():786] wandb.init called with sweep_config: {}
+config: {'test_size': 0.2, 'random_state': 42, 'cv_folds': 3, 'imputation_strategy': 'mean', 'dataset_path': '/home/nasir-hussain/Pictures/Depression_Detection_Using_Machine_Learning/dataset/depressionDataset.csv', '_wandb': {}}
+2025-04-16 10:36:23,212 INFO    MainThread:302186 [wandb_init.py:init():809] starting backend
+2025-04-16 10:36:23,212 INFO    MainThread:302186 [wandb_init.py:init():813] sending inform_init request
+2025-04-16 10:36:23,221 INFO    MainThread:302186 [backend.py:_multiprocessing_setup():101] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2025-04-16 10:36:23,221 INFO    MainThread:302186 [wandb_init.py:init():823] backend started and connected
+2025-04-16 10:36:23,225 INFO    MainThread:302186 [wandb_init.py:init():915] updated telemetry
+2025-04-16 10:36:23,240 INFO    MainThread:302186 [wandb_init.py:init():939] communicating run to backend with 90.0 second timeout
+2025-04-16 10:36:24,124 INFO    MainThread:302186 [wandb_init.py:init():1014] starting run threads in backend
+2025-04-16 10:36:24,390 INFO    MainThread:302186 [wandb_run.py:_console_start():2454] atexit reg
+2025-04-16 10:36:24,390 INFO    MainThread:302186 [wandb_run.py:_redirect():2306] redirect: wrap_raw
+2025-04-16 10:36:24,391 INFO    MainThread:302186 [wandb_run.py:_redirect():2371] Wrapping output streams.
+2025-04-16 10:36:24,391 INFO    MainThread:302186 [wandb_run.py:_redirect():2394] Redirects installed.
+2025-04-16 10:36:24,394 INFO    MainThread:302186 [wandb_init.py:init():1056] run started, returning control to user process
+2025-04-16 10:36:24,453 INFO    MainThread:302186 [wandb_config.py:__setitem__():154] [no run ID] config set features_used = ['q1', 'q2', 'q3', 'q4', 'q5', 'q6', 'q7', 'q8', 'q9', 'q10', 'hour', 'dayofweek', 'period.name'] - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x7fbf49c85c30>>
+2025-04-16 10:36:24,453 INFO    MainThread:302186 [wandb_run.py:_config_callback():1327] config_cb features_used ['q1', 'q2', 'q3', 'q4', 'q5', 'q6', 'q7', 'q8', 'q9', 'q10', 'hour', 'dayofweek', 'period.name'] None
+2025-04-16 10:36:24,484 INFO    MainThread:302186 [wandb_run.py:_config_callback():1327] config_cb None None {'model_hyperparameter_grids': {'RandomForest': {'model': 'RandomForestClassifier(random_state=42)', 'params': {'n_estimators': [50, 100, 200], 'max_depth': [None, 5, 10], 'min_samples_split': [2, 5]}}, 'LogisticRegression': {'model': 'LogisticRegression(max_iter=1000, random_state=42)', 'params': {'C': [0.1, 1, 10], 'solver': ['liblinear', 'saga'], 'penalty': ['l1', 'l2']}}, 'KNN': {'model': 'KNeighborsClassifier()', 'params': {'n_neighbors': [3, 5, 7], 'weights': ['uniform', 'distance']}}}}
+2025-04-16 10:37:47,130 INFO    MainThread:302186 [wandb_run.py:_config_callback():1327] config_cb ('_wandb', 'viz', 'confusion_matrix') {'id': 'wandb/confusion_matrix/v1', 'historyFieldSettings': {'x-axis': '_step', 'key': 'confusion_matrix'}} None
+2025-04-16 10:37:48,924 INFO    MainThread:302186 [wandb_run.py:_config_callback():1327] config_cb ('_wandb', 'viz', 'summary_metrics') {'id': 'wandb/metrics/v1', 'historyFieldSettings': {'x-axis': '_step', 'key': 'summary_metrics'}} None
+2025-04-16 10:37:49,558 INFO    MainThread:302186 [wandb_run.py:_config_callback():1327] config_cb ('_wandb', 'viz', 'class_proportions') {'id': 'wandb/class_proportions/v1', 'historyFieldSettings': {'x-axis': '_step', 'key': 'class_proportions'}} None
+2025-04-16 10:37:50,716 INFO    MainThread:302186 [wandb_run.py:_config_callback():1327] config_cb ('_wandb', 'visualize', 'roc') {'panel_type': 'Vega2', 'panel_config': {'panelDefId': 'wandb/area-under-curve/v0', 'fieldSettings': {'x': 'fpr', 'y': 'tpr', 'class': 'class'}, 'stringSettings': {'title': 'ROC Curve', 'x-axis-title': 'False positive rate', 'y-axis-title': 'True positive rate'}, 'transform': {'name': 'tableWithLeafColNames'}, 'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'roc_table'}], 'fields': []}]}]}}} None
+2025-04-16 10:37:51,445 INFO    MainThread:302186 [wandb_run.py:_config_callback():1327] config_cb ('_wandb', 'visualize', 'precision_recall') {'panel_type': 'Vega2', 'panel_config': {'panelDefId': 'wandb/area-under-curve/v0', 'fieldSettings': {'x': 'recall', 'y': 'precision', 'class': 'class'}, 'stringSettings': {'title': 'Precision-Recall Curve', 'x-axis-title': 'Recall', 'y-axis-title': 'Precision'}, 'transform': {'name': 'tableWithLeafColNames'}, 'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'precision_recall_table'}], 'fields': []}]}]}}} None
+2025-04-16 10:37:52,050 INFO    MainThread:302186 [wandb_run.py:_finish():2189] finishing run adney377-amity-online/ml-classification-pipeline/boh42i1d
+2025-04-16 10:37:52,051 INFO    MainThread:302186 [wandb_run.py:_atexit_cleanup():2419] got exitcode: 0
+2025-04-16 10:37:52,052 INFO    MainThread:302186 [wandb_run.py:_restore():2401] restore
+2025-04-16 10:37:52,052 INFO    MainThread:302186 [wandb_run.py:_restore():2407] restore done
+2025-04-16 10:37:56,212 INFO    MainThread:302186 [wandb_run.py:_footer_history_summary_info():4064] rendering history
+2025-04-16 10:37:56,218 INFO    MainThread:302186 [wandb_run.py:_footer_history_summary_info():4096] rendering summary
+2025-04-16 10:37:56,222 INFO    MainThread:302186 [wandb_run.py:_footer_sync_info():4025] logging synced files

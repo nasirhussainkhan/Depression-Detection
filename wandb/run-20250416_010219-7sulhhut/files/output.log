@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "/home/nasir-hussain/Pictures/Depression_Detection_Using_Machine_Learning/depression_dataset_model.py", line 16, in <module>
+    df = pd.read_csv("your_data.csv")  # Replace with your file
+  File "/home/nasir-hussain/Pictures/Depression_Detection_Using_Machine_Learning/env/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/nasir-hussain/Pictures/Depression_Detection_Using_Machine_Learning/env/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/home/nasir-hussain/Pictures/Depression_Detection_Using_Machine_Learning/env/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/home/nasir-hussain/Pictures/Depression_Detection_Using_Machine_Learning/env/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+  File "/home/nasir-hussain/Pictures/Depression_Detection_Using_Machine_Learning/env/lib/python3.10/site-packages/pandas/io/common.py", line 873, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'your_data.csv'

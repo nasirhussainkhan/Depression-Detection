@@ -1,0 +1,20 @@
+
+Running GridSearchCV for RandomForest...
+/home/nasir-hussain/Pictures/Depression_Detection_Using_Machine_Learning/env/lib/python3.10/site-packages/sklearn/utils/_array_api.py:290: RuntimeWarning: invalid value encountered in cast
+  return x.astype(dtype, copy=copy, casting=casting)
+Traceback (most recent call last):
+  File "/home/nasir-hussain/Pictures/Depression_Detection_Using_Machine_Learning/depression_dataset_model.py", line 68, in <module>
+    grid.fit(X_train, y_train)
+  File "/home/nasir-hussain/Pictures/Depression_Detection_Using_Machine_Learning/env/lib/python3.10/site-packages/sklearn/base.py", line 1474, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+  File "/home/nasir-hussain/Pictures/Depression_Detection_Using_Machine_Learning/env/lib/python3.10/site-packages/sklearn/model_selection/_search.py", line 879, in fit
+    cv_orig = check_cv(self.cv, y, classifier=is_classifier(estimator))
+  File "/home/nasir-hussain/Pictures/Depression_Detection_Using_Machine_Learning/env/lib/python3.10/site-packages/sklearn/model_selection/_split.py", line 2525, in check_cv
+    and (type_of_target(y, input_name="y") in ("binary", "multiclass"))
+  File "/home/nasir-hussain/Pictures/Depression_Detection_Using_Machine_Learning/env/lib/python3.10/site-packages/sklearn/utils/multiclass.py", line 389, in type_of_target
+    _assert_all_finite(data, input_name=input_name)
+  File "/home/nasir-hussain/Pictures/Depression_Detection_Using_Machine_Learning/env/lib/python3.10/site-packages/sklearn/utils/validation.py", line 126, in _assert_all_finite
+    _assert_all_finite_element_wise(
+  File "/home/nasir-hussain/Pictures/Depression_Detection_Using_Machine_Learning/env/lib/python3.10/site-packages/sklearn/utils/validation.py", line 175, in _assert_all_finite_element_wise
+    raise ValueError(msg_err)
+ValueError: Input y contains NaN.

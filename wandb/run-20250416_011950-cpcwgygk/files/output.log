@@ -1,0 +1,9 @@
+
+🔧 Running GridSearchCV for RandomForest...
+❌ Error while training RandomForest: 1
+
+🔧 Running GridSearchCV for LogisticRegression...
+❌ Error while training LogisticRegression: 1
+
+🔧 Running GridSearchCV for KNN...
+❌ Error while training KNN: 1

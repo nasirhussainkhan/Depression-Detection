@@ -1,0 +1,16 @@
+{"time":"2025-04-16T10:27:32.068427015+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/home/nasir-hussain/Pictures/Depression_Detection_Using_Machine_Learning/wandb/run-20250416_102732-s9m4jkip/logs/debug-core.log"}
+{"time":"2025-04-16T10:27:32.765301298+05:30","level":"INFO","msg":"created new stream","id":"s9m4jkip"}
+{"time":"2025-04-16T10:27:32.765458296+05:30","level":"INFO","msg":"stream: started","id":"s9m4jkip"}
+{"time":"2025-04-16T10:27:32.765502529+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"s9m4jkip"}
+{"time":"2025-04-16T10:27:32.765576596+05:30","level":"INFO","msg":"handler: started","stream_id":"s9m4jkip"}
+{"time":"2025-04-16T10:27:32.765659758+05:30","level":"INFO","msg":"sender: started","stream_id":"s9m4jkip"}
+{"time":"2025-04-16T10:27:33.226904894+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-16T10:28:57.38226773+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-16T10:28:57.382375883+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-16T10:28:58.384514426+05:30","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading artifact run-s9m4jkip-summary_metrics","runtime_seconds":3.452322733},{"desc":"uploading artifact run-s9m4jkip-class_proportions","runtime_seconds":2.9499814559999997},{"desc":"uploading artifact run-s9m4jkip-roc_table","runtime_seconds":1.8749245860000001,"subtasks":[{"desc":"roc_table.table.json","runtime_seconds":0.57465274,"progress":"49.6KB/49.6KB"}]},{"desc":"uploading artifact run-s9m4jkip-precision_recall_table","runtime_seconds":1.057685967},{"desc":"uploading config.yaml","runtime_seconds":0.247738645,"progress":"9.3KB/9.3KB"}],"total_operations":5}}
+{"time":"2025-04-16T10:29:00.835013665+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-16T10:29:01.406823699+05:30","level":"INFO","msg":"stream: closing","id":"s9m4jkip"}
+{"time":"2025-04-16T10:29:01.406866277+05:30","level":"INFO","msg":"handler: closed","stream_id":"s9m4jkip"}
+{"time":"2025-04-16T10:29:01.406909055+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"s9m4jkip"}
+{"time":"2025-04-16T10:29:01.406932986+05:30","level":"INFO","msg":"sender: closed","stream_id":"s9m4jkip"}
+{"time":"2025-04-16T10:29:01.407018605+05:30","level":"INFO","msg":"stream: closed","id":"s9m4jkip"}

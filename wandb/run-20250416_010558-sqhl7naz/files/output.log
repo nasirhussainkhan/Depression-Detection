@@ -1,0 +1,16 @@
+
+🔧 Running GridSearchCV for RandomForest...
+RandomForest Accuracy: 0.8929
+
+🔧 Running GridSearchCV for LogisticRegression...
+LogisticRegression Accuracy: 0.7699
+
+🔧 Running GridSearchCV for KNN...
+KNN Accuracy: 0.8264
+
+✅ Best model: RandomForest with accuracy 0.8929
+✅ Model saved to best_model_RandomForest.pkl
+Traceback (most recent call last):
+  File "/home/nasir-hussain/Pictures/Depression_Detection_Using_Machine_Learning/depression_dataset_model.py", line 115, in <module>
+    wandb.sklearn.plot_classifier(
+TypeError: classifier() missing 1 required positional argument: 'y_probas'

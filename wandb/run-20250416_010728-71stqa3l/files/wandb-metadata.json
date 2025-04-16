@@ -1,0 +1,31 @@
+{
+  "os": "Linux-6.11.0-19-generic-x86_64-with-glibc2.39",
+  "python": "CPython 3.10.16",
+  "startedAt": "2025-04-15T19:37:28.454022Z",
+  "program": "/home/nasir-hussain/Pictures/Depression_Detection_Using_Machine_Learning/depression_dataset_model.py",
+  "codePath": "depression_dataset_model.py",
+  "git": {
+    "remote": "https://github.com/nasirhussainkhan/Depression_Detection_Using_Machine_Learning.git",
+    "commit": "82af333fe79ec2b8597f39855efa7392f1d384e2"
+  },
+  "email": "adney377@gmail.com",
+  "root": "/home/nasir-hussain/Pictures/Depression_Detection_Using_Machine_Learning",
+  "host": "nasir-hussain-Latitude-7290",
+  "executable": "/home/nasir-hussain/Pictures/Depression_Detection_Using_Machine_Learning/env/bin/python",
+  "codePathLocal": "depression_dataset_model.py",
+  "cpu_count": 4,
+  "cpu_count_logical": 8,
+  "disk": {
+    "/": {
+      "total": "234039422976",
+      "used": "181999353856"
+    }
+  },
+  "memory": {
+    "total": "16640700416"
+  },
+  "cpu": {
+    "count": 4,
+    "countLogical": 8
+  }
+}

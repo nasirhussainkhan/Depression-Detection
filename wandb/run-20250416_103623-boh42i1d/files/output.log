@@ -1,0 +1,44 @@
+🔄 Loading and preprocessing data...
+🔪 Splitting data into train/test sets...
+
+🔧 Running GridSearchCV for RandomForest...
+    Best CV Params for RandomForest: {'max_depth': None, 'min_samples_split': 2, 'n_estimators': 200}
+    Mean CV Accuracy for RandomForest: 0.8892
+    Test Accuracy for RandomForest: 0.8914
+    Training Time for RandomForest: 15.20 seconds
+    🚀 New best model found: RandomForest
+
+🔧 Running GridSearchCV for LogisticRegression...
+/home/nasir-hussain/Pictures/Depression_Detection_Using_Machine_Learning/env/lib/python3.10/site-packages/sklearn/linear_model/_sag.py:350: ConvergenceWarning: The max_iter was reached which means the coef_ did not converge
+  warnings.warn(
+    Best CV Params for LogisticRegression: {'C': 1, 'penalty': 'l2', 'solver': 'saga'}
+    Mean CV Accuracy for LogisticRegression: 0.9596
+    Test Accuracy for LogisticRegression: 0.9567
+    Training Time for LogisticRegression: 62.16 seconds
+    🚀 New best model found: LogisticRegression
+
+🔧 Running GridSearchCV for KNN...
+    Best CV Params for KNN: {'n_neighbors': 7, 'weights': 'distance'}
+    Mean CV Accuracy for KNN: 0.8320
+    Test Accuracy for KNN: 0.8418
+    Training Time for KNN: 3.45 seconds
+
+✅ Best overall model: LogisticRegression with test accuracy 0.9567
+✅ Model saved to best_model_LogisticRegression.pkl
+✅ Model artifact uploaded to wandb run.
+📊 Logging sklearn summary plots for best model...
+wandb:
+wandb: Plotting BestModel_LogisticRegression.
+wandb: WARNING 2-dimensional feature importances array passed to plot_feature_importances. 2-dimensional and higher feature importances arrays are not currently supported. These importances will not be plotted.
+wandb: Logged feature importances.
+wandb: Logged confusion matrix.
+wandb: Logged summary metrics.
+wandb: Logged class proportions.
+wandb: WARNING This function only supports binary classification at the moment and therefore expects labels to be binary. Skipping calibration curve.
+wandb: Logged calibration curve.
+wandb: Logged roc curve.
+wandb: Logged precision-recall curve.
+✅ Sklearn summary plots logged to wandb.
+✅ Detailed classification report for best model logged.
+
+🏁 Finishing wandb run...

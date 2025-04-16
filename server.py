@@ -1,7 +1,7 @@
 from flask import Flask, request, render_template,flash,redirect,session,abort,jsonify
 from models import Model
 from depression_detection_tweets import DepressionDetection
-from TweetModel import process_message
+from TweetModel import TweetClassifier, process_message
 import os
 
 app = Flask(__name__)
@@ -38,8 +38,17 @@ def sentiment():
 def predictSentiment():
     message = request.form['form10']
     pm = process_message(message)
-    result = DepressionDetection.classify(pm, 'bow') or DepressionDetection.classify(pm, 'tf-idf')
-    return render_template("tweetresult.html",result=result)
+
+    detector = DepressionDetection()  # create the detection object
+    bow_model = TweetClassifier(detector.trainData, 'bow')
+    tfidf_model = TweetClassifier(detector.trainData, 'tf-idf')
+
+    result_bow = bow_model.classify(pm, 'bow')
+    result_tfidf = tfidf_model.classify(pm, 'tf-idf')
+
+    result = result_bow or result_tfidf
+
+    return render_template("tweetresult.html", result=result)
 
 
 @app.route('/predict', methods=["POST"])

@@ -1,0 +1,15 @@
+{"time":"2025-04-16T01:02:19.265243079+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.9","symlink path":"/home/nasir-hussain/Pictures/Depression_Detection_Using_Machine_Learning/wandb/run-20250416_010219-7sulhhut/logs/debug-core.log"}
+{"time":"2025-04-16T01:02:20.02057801+05:30","level":"INFO","msg":"created new stream","id":"7sulhhut"}
+{"time":"2025-04-16T01:02:20.020817687+05:30","level":"INFO","msg":"stream: started","id":"7sulhhut"}
+{"time":"2025-04-16T01:02:20.020956313+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"7sulhhut"}
+{"time":"2025-04-16T01:02:20.021458956+05:30","level":"INFO","msg":"handler: started","stream_id":"7sulhhut"}
+{"time":"2025-04-16T01:02:20.021571566+05:30","level":"INFO","msg":"sender: started","stream_id":"7sulhhut"}
+{"time":"2025-04-16T01:02:20.575873195+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-04-16T01:02:21.139290852+05:30","level":"INFO","msg":"stream: closing","id":"7sulhhut"}
+{"time":"2025-04-16T01:02:21.139399061+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-04-16T01:02:21.13945433+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-04-16T01:02:23.257628539+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-04-16T01:02:23.766867606+05:30","level":"INFO","msg":"handler: closed","stream_id":"7sulhhut"}
+{"time":"2025-04-16T01:02:23.766936457+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"7sulhhut"}
+{"time":"2025-04-16T01:02:23.766950897+05:30","level":"INFO","msg":"sender: closed","stream_id":"7sulhhut"}
+{"time":"2025-04-16T01:02:23.767033739+05:30","level":"INFO","msg":"stream: closed","id":"7sulhhut"}
